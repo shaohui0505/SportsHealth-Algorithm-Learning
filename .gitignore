@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+*.egg
+build/
+dist/
+
+# 虚拟环境
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 操作系统
+.DS_Store
+Thumbs.db
+
+# 数据文件（不提交大文件，保留目录结构）
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+*.csv
+*.xlsx
+*.parquet
+*.pkl
+*.h5
+*.hdf5
+*.npz
+*.npy
+
+# 模型权重
+models/
+*.pt
+*.pth
+*.ckpt
+*.bin
+
+# 日志
+*.log
+logs/
+
+# 图表（可按需取消注释以提交结果图）
+# reports/figures/*
+# !reports/figures/.gitkeep
